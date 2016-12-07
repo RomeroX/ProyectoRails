@@ -1,0 +1,2 @@
+class RangedTask < Task
+end

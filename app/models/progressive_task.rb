@@ -1,0 +1,2 @@
+class ProgressiveTask < Task
+end

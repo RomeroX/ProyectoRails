@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# http://v4-alpha.getbootstrap.com/
+# https://github.com/twbs/bootstrap-rubygem#installation
+gem 'bootstrap', '~> 4.0.0.alpha5'
+# https://github.com/plataformatec/simple_form#installation
+gem 'simple_form', '~> 3.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

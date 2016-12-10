@@ -1,3 +1,3 @@
 class RangedTask < Task
-	 validates :state, inclusion: { in: [pending, complete, expired] }
+	 validates :state, inclusion: { in: ['pending', 'complete', 'expired'] }
 end

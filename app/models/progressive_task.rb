@@ -2,7 +2,7 @@ class ProgressiveTask < Task
 
   after_initialize :set_initilize_progress 
 
-  validates :state, inclusion: { in:[pending, complete, in_progress]}
+  validates :state, inclusion: { in:['pending', 'complete', 'in_progress']}
 
   private
 

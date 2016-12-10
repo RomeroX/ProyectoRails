@@ -3,9 +3,9 @@ class Task < ApplicationRecord
 
 	after_initialize :set_initialize_state
 
-	validates :description, presences:true, lenght: {maximum: 255}
-	validates :priority, presences:true, inclusion: { in: [1,2,3]}
-	validates :state, inclusion: { in: [pending, complete] }
+	validates :description, presence: true, length: {maximum: 255}
+	validates :priority, presence: true, inclusion: { in: [1,2,3]}
+	validates :state, inclusion: { in: ['pending', 'complete'] }
 
 	private
 

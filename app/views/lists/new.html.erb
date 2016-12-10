@@ -1,5 +1,15 @@
-<h1> Crear una nueva lista </h1>
-<%= simple_form_for @list do |f| %>
-  <%= f.input :title %>
-  <%= f.button :submit %>
-<% end %>
+<div class="new">
+	<h3> Crear una nueva lista </h3>
+	<%= simple_form_for @list do |f| %>
+	  <%= f.input :title %> 
+	  <%= f.button :submit %>
+	<% end %>
+</div>
+<span> Últimas creadas: </span>
+	<ul>
+		<li><a  href="#">Ejemplo 1</a></li>
+		<li><a  href="#">Ejemplo 2</a></li>
+		<li><a  href="#">Ejemplo 3</a></li>
+		<li><a  href="#">Ejemplo 4</a></li>
+		<li><a  href="#">Ejemplo 3</a></li>
+	</ul>
